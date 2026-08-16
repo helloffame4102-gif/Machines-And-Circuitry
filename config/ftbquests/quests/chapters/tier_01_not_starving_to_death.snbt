@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_01_not_starving_to_death"
+	group: "3A2E9C54832AC3A6"
+	icon: "minecraft:cooked_beef"
+	id: "5F13E8094F5D4736"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 0.1: Not Starving to Death"
+}

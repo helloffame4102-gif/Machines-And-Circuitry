@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_42_harvesting_bacteria"
+	group: "3A2E9C54832AC3A6"
+	icon: "gtceu:petri_dish"
+	id: "6768909D6F500168"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 4.2: Harvesting Bacteria"
+}

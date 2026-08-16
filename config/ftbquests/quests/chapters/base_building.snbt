@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "base_building"
+	group: "06E5B5D99D40C21A"
+	icon: "minecraft:ender_chest"
+	id: "3EE497D59F027A05"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Base Building"
+}

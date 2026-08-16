@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 1.6d
+	filename: "main_mechanics"
+	group: "06E5B5D99D40C21A"
+	icon: "gtceu:zpm_parallel_hatch"
+	id: "04B55389C04EFDBF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Main Mechanics"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "06E5B5D99D40C21A"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "1B3C4E73E51BB09F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Progression Tracking"
+}

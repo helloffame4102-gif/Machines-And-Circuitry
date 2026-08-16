@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_25_petroleum_age"
+	group: "3A2E9C54832AC3A6"
+	icon: "gtceu:clean_machine_casing"
+	id: "0ED8C41F33352B91"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 2.2: Petroleum Age"
+}

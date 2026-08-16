@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0_stone_age"
+	group: "7F453502DE859514"
+	icon: {
+		Count: 1
+		id: "minecraft:flint_and_steel"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "72CCED8ED5CA8DBF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "minecraft:oak_log"
+		id: "257BD2B9F9267E45"
+		shape: "pentagon"
+		size: 2.3d
+		subtitle: "...with your bare hands"
+		tasks: [{
+			id: "61C990642B638A10"
+			item: {
+				Count: 1
+				id: "ftbfiltersystem:smart_filter"
+				tag: {
+					"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+				}
+			}
+			title: "Any #minecraft:logs"
+			type: "item"
+		}]
+		title: "Chop that wood!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tier 0: Stone Age"
+}

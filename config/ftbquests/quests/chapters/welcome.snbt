@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "gtceu:creative_energy"
+	id: "35B24BC4B18040B6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to &9&lMachines&r &7and&7 &5&lCircuitry!&r&r This is a high-level GregTech modpack which focuses on &lautomation challenges&r. Unlike other packs, this one only goes up to UV tier of technology, and splits the progression into &o5&r tiers of technology instead of the usual 8."]
+			icon: "gtceu:uv_machine_hull"
+			id: "755183BFDC1FDF80"
+			shape: "hexagon"
+			size: 2.7d
+			subtitle: "Yet another GTm pack"
+			tasks: [{
+				id: "1E4027C24189B612"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9&lMachines&9 &7and&7 &5Circuitry!&l&5"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:paper"
+			id: "76908B54F8AF1868"
+			subtitle: "Shoutouts to all these people"
+			tasks: [{
+				id: "52159CA598D3EA5B"
+				title: "Credits"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: "Welcome!"
+}

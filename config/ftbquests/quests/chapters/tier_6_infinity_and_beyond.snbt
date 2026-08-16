@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tier_6_infinity_and_beyond"
+	group: "7F453502DE859514"
+	icon: "gtceu:neutronium_ingot"
+	id: "118F90AD09BD7CB6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 6: Infinity and Beyond!"
+}
