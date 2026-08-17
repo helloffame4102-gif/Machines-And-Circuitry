@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/wrought_iron/casing_ctm"
+    }
+}

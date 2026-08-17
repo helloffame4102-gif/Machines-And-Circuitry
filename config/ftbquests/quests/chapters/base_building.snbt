@@ -3,10 +3,34 @@
 	default_quest_shape: ""
 	filename: "base_building"
 	group: "06E5B5D99D40C21A"
-	icon: "minecraft:ender_chest"
+	icon: {
+		Count: 1
+		id: "gtceu:hv_neutronium_chainsaw"
+		tag: {
+			Charge: 2147483647L
+			Damage: 0
+			DisallowContainerItem: 0b
+			GT.Behaviours: {
+				DisableShields: 1b
+				HarvestIce: 1b
+				RelocateMinedBlocks: 1b
+				RelocateMobDrops: 1b
+				TreeFelling: 1b
+			}
+			GT.Tool: {
+				DefaultEnchantments: [ ]
+				HarvestLevel: 6
+				MaxDamage: 65534
+				ToolSpeed: 544.0f
+			}
+			HideFlags: 2
+			MaxCharge: 2147483647L
+			Unbreakable: 1b
+		}
+	}
 	id: "3EE497D59F027A05"
 	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
-	title: "Base Building"
+	title: "Tools"
 }

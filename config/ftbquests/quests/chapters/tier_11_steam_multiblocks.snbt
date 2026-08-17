@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_11_steam_multiblocks"
+	group: "3A2E9C54832AC3A6"
+	icon: "gtceu:steam_input_hatch"
+	id: "083C0F0D145F88B2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 1.1: Steam Multiblocks"
+}
