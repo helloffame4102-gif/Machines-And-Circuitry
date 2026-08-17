@@ -30,6 +30,7 @@ emi.json
 /.vscode/*
 
 # ProbeJS
+/.probe/*
 /kubejs/probe/
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
