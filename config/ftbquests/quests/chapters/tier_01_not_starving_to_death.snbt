@@ -7,19 +7,25 @@
 	id: "5F13E8094F5D4736"
 	order_index: 0
 	quest_links: [ ]
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	quests: [ ]
 =======
+=======
+>>>>>>> 0417516a09c40cb0d051a4ac5bed48a26795c725
 	quests: [
 		{
 			description: ["At the start of your cooking journey, you need wheat and dough. So collect some!"]
 			id: "6921DE89B80D1A97"
+<<<<<<< HEAD
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "68257A8D93347753"
 				table_id: 2934265340142732936L
 				type: "choice"
 			}]
+=======
+>>>>>>> 0417516a09c40cb0d051a4ac5bed48a26795c725
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "10000 BCE activities"
@@ -37,12 +43,15 @@
 			dependencies: ["6921DE89B80D1A97"]
 			hide_until_deps_visible: true
 			id: "5B9583D34D1BBDD7"
+<<<<<<< HEAD
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7BF7748BC2CE8AF5"
 				table_id: 6260470165649401488L
 				type: "choice"
 			}]
+=======
+>>>>>>> 0417516a09c40cb0d051a4ac5bed48a26795c725
 			shape: "octagon"
 			subtitle: "6500 BCE activities"
 			tasks: [{
@@ -56,6 +65,9 @@
 			y: 0.0d
 		}
 	]
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 0417516a09c40cb0d051a4ac5bed48a26795c725
 	title: "Tier 0.1: Not Starving to Death"
 }
