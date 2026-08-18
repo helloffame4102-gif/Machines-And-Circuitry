@@ -1,0 +1,10 @@
+{
+	id: "28B89AC7CBF2C688"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "minecraft:wheat" }
+		{ count: 3, item: "minecraft:wheat_seeds" }
+	]
+	title: "Wheat"
+}
