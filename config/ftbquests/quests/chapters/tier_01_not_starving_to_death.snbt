@@ -7,6 +7,39 @@
 	id: "5F13E8094F5D4736"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["At the start of your cooking journey, you need wheat and dough. So collect some!"]
+			id: "6921DE89B80D1A97"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "10000 BCE activities"
+			tasks: [{
+				count: 8L
+				id: "1B537960CF23CAA9"
+				item: { Count: 8, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "Wheat!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6921DE89B80D1A97"]
+			hide_until_deps_visible: true
+			id: "5B9583D34D1BBDD7"
+			shape: "octagon"
+			subtitle: "6500 BCE activities"
+			tasks: [{
+				count: 6L
+				id: "73E17F1BB2F8E677"
+				item: { Count: 6, id: "kubejs:wheat_flour" }
+				type: "item"
+			}]
+			title: "Flour!"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
 	title: "Tier 0.1: Not Starving to Death"
 }
