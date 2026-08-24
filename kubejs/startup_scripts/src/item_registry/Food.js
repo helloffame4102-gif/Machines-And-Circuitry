@@ -1,3 +1,8 @@
 StartupEvents.registry('item', event => {
-  event.create('wheat_flour').texture("kubejs:item/food/wheat_flour")
+  const create = (name) => {
+    event.create(name).texture("kubejs:item/food/" + name)
+  }
+  create("wheat_flour")
+  create("wheat_bread")
+
 })

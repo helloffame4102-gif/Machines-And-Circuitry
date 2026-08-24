@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1_bronze_age"
+	group: "7F453502DE859514"
+	icon: "gtceu:bronze_gearbox"
+	id: "3D05CBAAC2984ECF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 1: Bronze Age"
+}

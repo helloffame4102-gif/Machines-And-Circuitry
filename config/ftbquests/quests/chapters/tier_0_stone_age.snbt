@@ -13,17 +13,6 @@
 	id: "72CCED8ED5CA8DBF"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: "gtceu:bronze_machine_casing"
-		id: "227B87FD590C4AEB"
-		subtitle: "Its an &oautomation&r pack come on"
-		tasks: [{
-			id: "4029EA4E05A46ADF"
-			title: "Starting Pack"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [ ]
 	title: "Tier 0: Genesis"
 }
