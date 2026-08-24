@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3185F5C15C6409D0"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "tier_0_stone_age"
@@ -13,6 +14,451 @@
 	id: "72CCED8ED5CA8DBF"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3185F5C15C6409D0"
+			subtitle: "Mine"
+			tasks: [{
+				count: 4L
+				id: "76C5E39D2AB8B1C3"
+				item: {
+					Count: 4
+					id: "minecraft:oak_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The 1st part of the game"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3185F5C15C6409D0"]
+			id: "5D4EE98C93D1981B"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Craft"
+			tasks: [{
+				id: "45D58E473D7862DE"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "The 2nd part of the game"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D4EE98C93D1981B"]
+			hide_until_deps_complete: true
+			id: "6877A6F95303178D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "41FDD2FF32F0956E"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "524186415447779D"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D3D5861D396090E"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA0172F4340A513"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6877A6F95303178D"]
+			hide_until_deps_complete: true
+			id: "3A3374793B5E90B0"
+			shape: "gear"
+			tasks: [{
+				count: 32L
+				id: "41174882E6CD921A"
+				item: { Count: 32, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Gathering Cobblestone"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6877A6F95303178D"]
+			hide_until_deps_complete: true
+			id: "798F22E9804C5F36"
+			shape: "gear"
+			tasks: [
+				{
+					count: 16L
+					id: "3404266EA201B0FC"
+					item: { Count: 16, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "61E28E2150EF3C36"
+					item: { Count: 64, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17CBB8D039C6BC5E"
+					item: { Count: 16, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			title: "Gathering the beach"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6877A6F95303178D"
+				"798F22E9804C5F36"
+			]
+			hide_until_deps_visible: true
+			id: "226E5DEAED652461"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				count: 6L
+				id: "0B6441AE5D8B01F8"
+				item: { Count: 6, id: "minecraft:flint" }
+				type: "item"
+			}]
+			title: "Better gravel"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"226E5DEAED652461"
+				"6877A6F95303178D"
+			]
+			hide_until_deps_complete: true
+			id: "7B9DD3D3B27D04B7"
+			tasks: [{
+				id: "2BBAB815FA533E35"
+				type: "checkmark"
+			}]
+			title: "Making a Bonfire"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B9DD3D3B27D04B7"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "7E652EC025F58393"
+			shape: "hexagon"
+			subtitle: "Plain furnaces are boring"
+			tasks: [{
+				count: 6L
+				id: "7804B11497F8D9C2"
+				item: { Count: 6, id: "minecraft:mud_bricks" }
+				type: "item"
+			}]
+			title: "Mud and a Kiln"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7E652EC025F58393"
+				"3A3374793B5E90B0"
+			]
+			hide_until_deps_visible: false
+			id: "78C95CB4A203AE67"
+			tasks: [{
+				count: 5L
+				id: "6840A9CC58EBF64B"
+				item: { Count: 5, id: "minecraft:stone" }
+				type: "item"
+			}]
+			title: "Stone!"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"226E5DEAED652461"
+				"78C95CB4A203AE67"
+			]
+			hide_until_deps_complete: true
+			id: "054EAB4356485B95"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "6300FB09837737EE"
+				item: {
+					Count: 1
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Grinding into Dusts"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["054EAB4356485B95"]
+			id: "2DF6690A90D64D29"
+			tasks: [{
+				id: "06F4042428BBEA1F"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			title: "Paper part 1"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78C95CB4A203AE67"]
+			hide_until_deps_visible: false
+			id: "65F9059981F8DEB3"
+			tasks: [
+				{
+					id: "37C64EFDE3469690"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FE27B2CCC98EBBC"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F6018214A0D19E0"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25BCF925EBC59EF5"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Stone Tools"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["226E5DEAED652461"]
+			hide_until_deps_complete: true
+			id: "2F82042F95EB4FDA"
+			tasks: [{
+				id: "7B5BE238D32EB4C3"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							DefaultEnchantments: [ ]
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6877A6F95303178D"]
+			hide_dependency_lines: true
+			hide_lock_icon: true
+			id: "78462A77DBC38F90"
+			tasks: [{
+				count: 4L
+				id: "68C0BED5574628B6"
+				item: { Count: 4, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"78462A77DBC38F90"
+				"2F82042F95EB4FDA"
+			]
+			hide_until_deps_visible: true
+			id: "665C1C6DF2EAF629"
+			tasks: [{
+				id: "1C1439E4561833C1"
+				title: "Mesh"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"798F22E9804C5F36"
+				"7E652EC025F58393"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "31A9C2761FC15508"
+			tasks: [{
+				id: "16F4768AB96E5EAB"
+				title: "Clay Bucket"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"665C1C6DF2EAF629"
+				"2DF6690A90D64D29"
+				"31A9C2761FC15508"
+			]
+			id: "4865CA9129BF2F36"
+			tasks: [{
+				count: 6L
+				id: "4414F3CA44796475"
+				item: { Count: 6, id: "minecraft:paper" }
+				type: "item"
+			}]
+			title: "Let there be writing"
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4865CA9129BF2F36"]
+			id: "0AE3E04E7B02B87E"
+			shape: "hexagon"
+			tasks: [{
+				id: "03C9FC021D33451B"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			title: "Basic Tinkering"
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AE3E04E7B02B87E"]
+			id: "22119845047E2FD1"
+			shape: "circle"
+			size: 2.0d
+			tasks: [
+				{
+					id: "31513ED8A4BD6D99"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10D9F039CBAA5E9E"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CB79AA5B00A8695"
+					item: {
+						Count: 1
+						id: "tconstruct:adze_head"
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Better tools 2"
+			x: -15.0d
+			y: -5.5d
+		}
+	]
 	title: "Tier 0: Genesis"
 }

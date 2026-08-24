@@ -7,6 +7,16 @@
 	id: "1FA2A72C96E076EB"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "72C2C35D6B5F3063"
+		tasks: [{
+			id: "048269E7CB6E1442"
+			item: "tconstruct:tinker_station"
+			type: "item"
+		}]
+		title: "Basic Tinkering"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Tinkering Around"
 }
