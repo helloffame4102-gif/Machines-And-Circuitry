@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		id: "72C2C35D6B5F3063"
+		shape: "hexagon"
 		tasks: [{
 			id: "048269E7CB6E1442"
 			item: "tconstruct:tinker_station"

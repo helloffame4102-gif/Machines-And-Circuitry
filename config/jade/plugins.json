@@ -80,6 +80,9 @@
     "parallel_info": true,
     "data_bank": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

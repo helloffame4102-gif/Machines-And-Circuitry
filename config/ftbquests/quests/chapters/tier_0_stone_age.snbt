@@ -12,6 +12,52 @@
 		}
 	}
 	id: "72CCED8ED5CA8DBF"
+	images: [
+		{
+			dependency: "054EAB4356485B95"
+			height: 1.0d
+			image: "kubejs:item/quest_images/dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.608163265306167d
+			y: -6.299319727891167d
+		}
+		{
+			dependency: "6D32184C4AB446D3"
+			height: 2.0d
+			image: "kubejs:item/quest_images/hammering"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.473129251700684d
+			y: -7.9503401360544d
+		}
+		{
+			dependency: "22119845047E2FD1"
+			height: 1.5d
+			image: "kubejs:item/quest_images/cogs"
+			rotation: 0.0d
+			width: 1.5d
+			x: -18.408163265306122d
+			y: -5.530612244897952d
+		}
+		{
+			dependency: "506D2AF7E6B7DE5C"
+			height: 1.0d
+			image: "kubejs:item/quest_images/chest"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.145578231292518d
+			y: -8.813605442176858d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/quest_images/fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.993537414965992d
+			y: -14.409523809523787d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -50,8 +96,16 @@
 		{
 			dependencies: ["5D4EE98C93D1981B"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6877A6F95303178D"
 			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "41FDD2FF32F0956E"
@@ -121,6 +175,7 @@
 		{
 			dependencies: ["6877A6F95303178D"]
 			hide_until_deps_complete: true
+			icon: "minecraft:sand"
 			id: "798F22E9804C5F36"
 			shape: "gear"
 			tasks: [
@@ -144,7 +199,7 @@
 				}
 			]
 			title: "Gathering the beach"
-			x: -4.5d
+			x: -5.0d
 			y: -4.0d
 		}
 		{
@@ -223,7 +278,7 @@
 			hide_until_deps_complete: true
 			id: "054EAB4356485B95"
 			shape: "circle"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "6300FB09837737EE"
 				item: {
@@ -243,7 +298,7 @@
 				type: "item"
 			}]
 			title: "Grinding into Dusts"
-			x: -8.0d
+			x: -8.5d
 			y: -5.5d
 		}
 		{
@@ -255,13 +310,21 @@
 				type: "item"
 			}]
 			title: "Paper part 1"
-			x: -9.5d
+			x: -10.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["78C95CB4A203AE67"]
 			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "65F9059981F8DEB3"
+			shape: "circle"
 			tasks: [
 				{
 					id: "37C64EFDE3469690"
@@ -309,7 +372,7 @@
 					type: "item"
 				}
 			]
-			title: "Stone Tools"
+			title: "Better Tools"
 			x: -7.0d
 			y: -8.0d
 		}
@@ -317,6 +380,7 @@
 			dependencies: ["226E5DEAED652461"]
 			hide_until_deps_complete: true
 			id: "2F82042F95EB4FDA"
+			shape: "circle"
 			tasks: [{
 				id: "7B5BE238D32EB4C3"
 				item: {
@@ -337,13 +401,14 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6877A6F95303178D"]
 			hide_dependency_lines: true
 			hide_lock_icon: true
+			hide_until_deps_complete: true
 			id: "78462A77DBC38F90"
 			tasks: [{
 				count: 4L
@@ -351,8 +416,8 @@
 				item: { Count: 4, id: "minecraft:string" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -366,8 +431,8 @@
 				title: "Mesh"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -382,7 +447,7 @@
 				title: "Clay Bucket"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -404,6 +469,7 @@
 		}
 		{
 			dependencies: ["4865CA9129BF2F36"]
+			hide_until_deps_complete: true
 			id: "0AE3E04E7B02B87E"
 			shape: "hexagon"
 			tasks: [{
@@ -417,6 +483,14 @@
 		}
 		{
 			dependencies: ["0AE3E04E7B02B87E"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
 			id: "22119845047E2FD1"
 			shape: "circle"
 			size: 2.0d
@@ -456,8 +530,659 @@
 				}
 			]
 			title: "Better tools 2"
-			x: -15.0d
+			x: -14.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["22119845047E2FD1"]
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_ore"
+			id: "173964054DC2AE10"
+			tasks: [{
+				id: "0118C56B1A79A282"
+				type: "checkmark"
+			}]
+			title: "Ore Finding"
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["173964054DC2AE10"]
+			hide_until_deps_complete: true
+			icon: "gtceu:raw_goethite"
+			id: "65CC97529E61F169"
+			shape: "gear"
+			tasks: [
+				{
+					count: 30L
+					id: "771EFA42FFEB88F9"
+					item: { Count: 16, id: "gtceu:raw_goethite" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "31A8F00FA0E06670"
+					item: { Count: 12, id: "gtceu:raw_yellow_limonite" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "104E351666DE757D"
+					item: { Count: 12, id: "gtceu:raw_hematite" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1BB968121F5301A2"
+					item: { Count: 6, id: "gtceu:raw_malachite" }
+					type: "item"
+				}
+			]
+			title: "Iron Vein"
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["173964054DC2AE10"]
+			hide_until_deps_complete: true
+			icon: "gtceu:raw_basaltic_mineral_sand"
+			id: "2DA741EDA2D29D04"
+			shape: "gear"
+			tasks: [
+				{
+					count: 32L
+					id: "43817FBCD23EBDA0"
+					item: { Count: 32, id: "gtceu:raw_basaltic_mineral_sand" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "77A6675C3FEC7990"
+					item: { Count: 12, id: "gtceu:raw_granitic_mineral_sand" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "0B791900C514D281"
+					item: { Count: 12, id: "gtceu:raw_fullers_earth" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2720C30B3393682F"
+					item: { Count: 8, id: "gtceu:raw_gypsum" }
+					type: "item"
+				}
+			]
+			title: "Mineral Sand Vein"
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["173964054DC2AE10"]
+			hide_until_deps_complete: true
+			icon: "gtceu:raw_chalcopyrite"
+			id: "136A0BA4318C957C"
+			shape: "gear"
+			tasks: [
+				{
+					count: 30L
+					id: "10E03101FBDDABE5"
+					item: { Count: 30, id: "gtceu:raw_chalcopyrite" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "32487F517C12200D"
+					item: { Count: 12, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1B0F3B02DA22B87F"
+					item: { Count: 12, id: "gtceu:raw_pyrite" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7A8A036049EB9289"
+					item: { Count: 12, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			title: "Copper Vein"
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"65CC97529E61F169"
+				"2DA741EDA2D29D04"
+				"136A0BA4318C957C"
+			]
+			dependency_requirement: "one_started"
+			hide_until_deps_visible: true
+			id: "67329E08520D8CF7"
+			shape: "gear"
+			tasks: [{
+				count: 64L
+				id: "674B09813439DF6A"
+				item: { Count: 64, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "First Iron"
+			x: -16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["136A0BA4318C957C"]
+			dependency_requirement: "one_started"
+			hide_until_deps_visible: true
+			id: "366BA93EE3074CCC"
+			shape: "gear"
+			tasks: [{
+				count: 32L
+				id: "6AF97FF91BE475AA"
+				item: { Count: 32, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "First Copper"
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["173964054DC2AE10"]
+			hide_until_deps_complete: true
+			icon: "gtceu:raw_cassiterite_sand"
+			id: "3C954503AC071252"
+			shape: "gear"
+			tasks: [
+				{
+					count: 32L
+					id: "1A8B6AE35F8A8EB0"
+					item: { Count: 32, id: "gtceu:raw_cassiterite_sand" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3F805E5512375FA4"
+					item: { Count: 20, id: "gtceu:raw_garnet_sand" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "4485B38A8FF99020"
+					item: { Count: 20, id: "gtceu:raw_asbestos" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "4E3698E8B30E8E87"
+					item: { Count: 12, id: "gtceu:raw_diatomite" }
+					type: "item"
+				}
+			]
+			title: "Garnet Tin Vein"
+			x: -19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C954503AC071252"]
+			dependency_requirement: "one_started"
+			hide_until_deps_visible: true
+			id: "65CBEE5B10F240DE"
+			shape: "gear"
+			tasks: [{
+				count: 32L
+				id: "3A25592386FDF850"
+				item: { Count: 32, id: "gtceu:tin_ingot" }
+				type: "item"
+			}]
+			title: "First Tin"
+			x: -18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["67329E08520D8CF7"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "gtceu:iron_hammer"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "6D32184C4AB446D3"
+			shape: "circle"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3036803C370FC07D"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D73C6C204559CE9"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26BEA7041343C8A7"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BCDC4DBAF913836"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A85B2706874DAAA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41A164308CDF77BB"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "GT Tools"
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["173964054DC2AE10"]
+			icon: "gtceu:raw_redstone"
+			id: "02CAB1BEFD18A604"
+			shape: "gear"
+			tasks: [
+				{
+					count: 32L
+					id: "62B35FBCCD2F9DBE"
+					item: { Count: 32, id: "gtceu:raw_redstone" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "62EAF644E3C37C67"
+					item: { Count: 24, id: "gtceu:raw_ruby" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0D8E4F96DB53F17E"
+					item: { Count: 12, id: "gtceu:raw_cinnabar" }
+					type: "item"
+				}
+			]
+			title: "Redstone Vein"
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"65CBEE5B10F240DE"
+				"366BA93EE3074CCC"
+			]
+			id: "778D68BE87F570EF"
+			tasks: [
+				{
+					count: 16L
+					id: "6C3F04BEFD17FF42"
+					item: { Count: 16, id: "gtceu:bronze_dust" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "09B9501235243E48"
+					item: { Count: 16, id: "gtceu:bronze_ingot" }
+					type: "item"
+				}
+			]
+			title: "The First Alloy"
+			x: -18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2F82042F95EB4FDA"]
+			id: "0AD227947944B5B9"
+			tasks: [{
+				id: "00BA512151115037"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			title: "Shaping Bricks"
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0AD227947944B5B9"
+				"798F22E9804C5F36"
+			]
+			id: "647201D2AD1426EF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B6524FAB3A54360"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			title: "Time to get charcoal"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AD227947944B5B9"]
+			id: "2ACD00CB8C1FA5F7"
+			tasks: [{
+				count: 32L
+				id: "6F88769654025DB2"
+				item: { Count: 32, id: "tconstruct:grout" }
+				type: "item"
+			}]
+			title: "Pre-seared Bricks"
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D32184C4AB446D3"]
+			hide_until_deps_complete: true
+			id: "5E537208E8189762"
+			tasks: [{
+				id: "251451FB0466B256"
+				item: "gtceu:bronze_drum"
+				type: "item"
+			}]
+			title: "Storing Fluids"
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6D32184C4AB446D3"]
+			hide_until_deps_complete: true
+			id: "0155934D04B81760"
+			tasks: [{
+				id: "5E2CEFF0247CC730"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "A better furnace"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6D32184C4AB446D3"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "03CF01C5793C5587"
+			shape: "pentagon"
+			tasks: [{
+				id: "0F9F87031DDC9E03"
+				title: "Cooking Utilities"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "3DADB4F071CDE865"
+			tasks: [{
+				id: "180043726BCB63CE"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "75F44EECFBBBF4B0"
+			tasks: [{
+				id: "37BFD871A24A0388"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "5A2B1C7B2FD70427"
+			tasks: [{
+				id: "4B0CDA86B07BAF86"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "67D3428D5FABCA32"
+			subtitle: "with temperature knob "
+			tasks: [{
+				id: "6AACFF4F7163899C"
+				title: "Oven"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "7F481BCAE5C5944D"
+			tasks: [{
+				id: "448DC773008770F5"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D32184C4AB446D3"]
+			id: "506D2AF7E6B7DE5C"
+			shape: "pentagon"
+			tasks: [{
+				id: "3071A4F886250D0D"
+				title: "New Storage Options"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "02B19471238D1101"
+			tasks: [{
+				id: "3A2BA90AFF7432A7"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Chests"
+			x: -10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "492406D9E3A3433D"
+			tasks: [{
+				id: "4B4C23DEB17A7A18"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "1E0687CA46CD8E2D"
+			tasks: [{
+				id: "0FC3B173E424B483"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "Barrels"
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "00D89BAE730ECB4F"
+			tasks: [{
+				id: "7F05F200598970EF"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E0687CA46CD8E2D"]
+			hide_until_deps_visible: true
+			id: "53CDC37DAEDEE47B"
+			tasks: [{
+				id: "35D0AA2C1A99CD96"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
 		}
 	]
 	title: "Tier 0: Genesis"
