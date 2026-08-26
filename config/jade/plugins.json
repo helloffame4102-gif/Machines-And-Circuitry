@@ -95,6 +95,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "unlitcampfire": {
+    "campfireinfo": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
