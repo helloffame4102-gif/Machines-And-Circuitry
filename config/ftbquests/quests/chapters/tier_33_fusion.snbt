@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_33_fusion"
+	group: "3A2E9C54832AC3A6"
+	icon: "gtceu:uv_fusion_reactor"
+	id: "7BC388332D40EC93"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 4.1: Fusion"
+}

@@ -7,15 +7,6 @@
 	id: "20D1C50B5C08AB41"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "167608BC66E28487"
-		tasks: [{
-			id: "5C319255A23C2A17"
-			item: "gtceu:steam_input_hatch"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [ ]
 	title: "Tier 1.1: Steam Multiblocks"
 }

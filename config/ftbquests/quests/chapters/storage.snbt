@@ -3,7 +3,14 @@
 	default_quest_shape: ""
 	filename: "storage"
 	group: "06E5B5D99D40C21A"
-	id: "252A44232095B7A4"
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:diamond_chest"
+		tag: {
+			woodType: "oak"
+		}
+	}
+	id: "02408168096AD8A7"
 	order_index: 6
 	quest_links: [ ]
 	quests: [ ]

@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: false
-	title: "&9&lMachines&r &7and&7 &5&lCircuitry&r&r"
+	title: "Machines anc Circuitry"
 	version: 13
 }

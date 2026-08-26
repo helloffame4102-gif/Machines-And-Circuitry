@@ -19,8 +19,8 @@
 			image: "kubejs:item/quest_images/dust"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.044217687074841d
-			y: -6.5756802721088405d
+			x: -9.608163265306167d
+			y: -6.299319727891167d
 		}
 		{
 			dependency: "6D32184C4AB446D3"
@@ -41,13 +41,21 @@
 			y: -5.530612244897952d
 		}
 		{
-			dependency: "03CF01C5793C5587"
+			dependency: "506D2AF7E6B7DE5C"
+			height: 1.0d
+			image: "kubejs:item/quest_images/chest"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.145578231292518d
+			y: -8.813605442176858d
+		}
+		{
 			height: 1.0d
 			image: "kubejs:item/quest_images/fire"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.678571428571423d
-			y: -11.339285714285715d
+			x: -10.993537414965992d
+			y: -14.409523809523787d
 		}
 	]
 	order_index: 0
@@ -964,7 +972,6 @@
 		}
 		{
 			dependencies: ["0AD227947944B5B9"]
-			hide_dependent_lines: true
 			id: "2ACD00CB8C1FA5F7"
 			tasks: [{
 				count: 32L
@@ -1006,194 +1013,176 @@
 			dependencies: ["6D32184C4AB446D3"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
-			icon: "farmersdelight:stove"
 			id: "03CF01C5793C5587"
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "279C706F8FAC1489"
-					title: "oven"
-					type: "checkmark"
-				}
-				{
-					id: "11AF277B890A2E77"
-					item: "minecraft:smoker"
-					type: "item"
-				}
-				{
-					id: "3A7C89E4C554F47A"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-				{
-					id: "63C2D2E33F05017B"
-					item: "farmersdelight:stove"
-					type: "item"
-				}
-				{
-					id: "5C28F21AFF3324E7"
-					item: {
-						Count: 1
-						id: "farmersdelight:skillet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Cooking Utilities"
+			tasks: [{
+				id: "0F9F87031DDC9E03"
+				title: "Cooking Utilities"
+				type: "checkmark"
+			}]
 			x: -11.0d
-			y: -10.5d
+			y: -12.0d
 		}
 		{
-			dependencies: ["6D32184C4AB446D3"]
-			id: "44933BCE5AD54105"
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "3DADB4F071CDE865"
 			tasks: [{
-				id: "524E08F22F3A0BD2"
+				id: "180043726BCB63CE"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "75F44EECFBBBF4B0"
+			tasks: [{
+				id: "37BFD871A24A0388"
 				item: {
 					Count: 1
-					id: "hangglider:hang_glider"
+					id: "farmersdelight:skillet"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6D32184C4AB446D3"]
-			id: "22CA8DDB1A88DB6F"
-			tasks: [{
-				id: "448D0A9E212A88B9"
-				item: {
-					Count: 1
-					id: "rechiseled:chisel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["647201D2AD1426EF"]
-			id: "7118CC2BFCA4EDC6"
-			tasks: [{
-				id: "5A5B6BA34A6EF662"
-				item: "gtceu:creosote_bucket"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["647201D2AD1426EF"]
-			id: "5DE36E3F56E79CCF"
-			tasks: [{
-				count: 16L
-				id: "3F14BF6D31BB0F64"
-				item: { Count: 16, id: "minecraft:charcoal" }
-				type: "item"
-			}]
-			title: "Better Fuel"
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["778D68BE87F570EF"]
-			id: "7FAC2676769A88B6"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "5FBA3266D7512C32"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "First Steam"
-			x: -18.0d
+			x: -12.0d
 			y: -13.0d
 		}
 		{
-			dependencies: ["7118CC2BFCA4EDC6"]
-			hide_dependent_lines: true
-			id: "23194BC0FA88D097"
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "5A2B1C7B2FD70427"
 			tasks: [{
-				id: "7092861E25E03B22"
-				item: "gtceu:treated_wood_planks"
+				id: "4B0CDA86B07BAF86"
+				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			title: "Treated Wood"
-			x: -8.0d
-			y: 0.5d
+			x: -11.0d
+			y: -13.5d
 		}
 		{
-			dependencies: [
-				"6D32184C4AB446D3"
-				"778D68BE87F570EF"
-				"2ACD00CB8C1FA5F7"
-			]
-			icon: "tconstruct:smeltery_controller"
-			id: "79D5445D56C60D2D"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Lava-powered smelting"
-			tasks: [
-				{
-					id: "30BBAA6CABA1CB52"
-					item: "tconstruct:smeltery_controller"
-					type: "item"
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "67D3428D5FABCA32"
+			subtitle: "with temperature knob "
+			tasks: [{
+				id: "6AACFF4F7163899C"
+				title: "Oven"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03CF01C5793C5587"]
+			hide_until_deps_visible: true
+			id: "7F481BCAE5C5944D"
+			tasks: [{
+				id: "448DC773008770F5"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6D32184C4AB446D3"]
+			id: "506D2AF7E6B7DE5C"
+			shape: "pentagon"
+			tasks: [{
+				id: "3071A4F886250D0D"
+				title: "New Storage Options"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "02B19471238D1101"
+			tasks: [{
+				id: "3A2BA90AFF7432A7"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
 				}
-				{
-					id: "72A23EDA55FE5539"
-					item: "tconstruct:seared_drain"
-					type: "item"
-				}
-				{
-					id: "3986662AB1EB7F85"
-					item: "tconstruct:seared_fuel_tank"
-					type: "item"
-				}
-				{
-					id: "2D0C9C61C2A60D91"
-					item: "tconstruct:seared_table"
-					type: "item"
-				}
-				{
-					id: "37D73FA03A35990C"
-					item: "tconstruct:seared_basin"
-					optional_task: true
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "5EC8BC74A248BB16"
-					item: { Count: 16, id: "tconstruct:seared_bricks" }
-					type: "item"
-				}
-			]
-			title: "Better Melting"
-			x: -14.5d
+				type: "item"
+			}]
+			title: "Iron Chests"
+			x: -10.0d
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"6D32184C4AB446D3"
-				"23194BC0FA88D097"
-			]
-			id: "7D13B92916061972"
-			shape: "hexagon"
-			size: 1.3d
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "492406D9E3A3433D"
 			tasks: [{
-				id: "725BBE90D47995D1"
-				item: "gtceu:primitive_pump"
+				id: "4B4C23DEB17A7A18"
+				item: "storagedrawers:oak_full_drawers_1"
 				type: "item"
 			}]
-			title: "Solving the Water Problem"
-			x: -9.75d
-			y: -10.4d
+			title: "Drawers"
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "1E0687CA46CD8E2D"
+			tasks: [{
+				id: "0FC3B173E424B483"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "Barrels"
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["506D2AF7E6B7DE5C"]
+			hide_until_deps_visible: true
+			id: "00D89BAE730ECB4F"
+			tasks: [{
+				id: "7F05F200598970EF"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E0687CA46CD8E2D"]
+			hide_until_deps_visible: true
+			id: "53CDC37DAEDEE47B"
+			tasks: [{
+				id: "35D0AA2C1A99CD96"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
 		}
 	]
 	title: "Tier 0: Genesis"

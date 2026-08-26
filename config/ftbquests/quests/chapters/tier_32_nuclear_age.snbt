@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tier_32_ore_processing"
+	filename: "tier_32_nuclear_age"
 	group: "3A2E9C54832AC3A6"
-	icon: "gtceu:purified_sphalerite_ore"
-	id: "661BC729F5E717A1"
+	icon: "gtceu:uranium_rhodium_dinaquadide_ingot"
+	id: "1BB5372F994AC055"
 	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
-	title: "Tier 3.3: Ore Processing"
+	title: "Tier 3.3: Nuclear Age"
 }

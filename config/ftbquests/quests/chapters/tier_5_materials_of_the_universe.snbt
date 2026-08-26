@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5_materials_of_the_universe"
+	group: "7F453502DE859514"
+	icon: "gtceu:neutronium_drill_head"
+	id: "2E75FD9989F52BC0"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 5: Materials of the Universe(UV)"
+}
