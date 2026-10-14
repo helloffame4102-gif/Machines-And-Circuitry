@@ -1,25 +1,25 @@
-filename = 'gregtechterminals-6.8.5.jar'
+filename = 'gregtechterminals-6.8.5-fix.jar'
 name = 'Gregtech Terminals'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Gregtech Terminals 6.8.5'
+x-prismlauncher-version-number = 'Gregtech Terminals 6.8.5-fix'
 
 [download]
-hash = '6eb74df5aaabe9553215b76b2f16daf465d8a7c8'
+hash = '50008666d4841d028b5e7104b3d0c8b559468c5e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8275858
+file-id = 8315854
 project-id = 1423461
-
-[[x-prismlauncher-dependencies]]
-addonId = '890405'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '223794'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '890405'
+type = 'REQUIRED'
