@@ -13,9 +13,6 @@
 	id: "72CCED8ED5CA8DBF"
 	order_index: 0
 	quest_links: [ ]
-<<<<<<< Updated upstream
-	quests: [ ]
-=======
 	quests: [
 		{
 			id: "3185F5C15C6409D0"
@@ -195,7 +192,7 @@
 		{
 			dependencies: ["7B9DD3D3B27D04B7"]
 			hide_dependent_lines: true
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			id: "7E652EC025F58393"
 			shape: "hexagon"
 			subtitle: "Plain furnaces are boring"
@@ -1230,6 +1227,5 @@
 			y: -4.0d
 		}
 	]
->>>>>>> Stashed changes
 	title: "Tier 0: Genesis"
 }

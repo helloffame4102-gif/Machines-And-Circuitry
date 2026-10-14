@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
     )
     // event.shaped(Item.of('sophisticatedstorage:barrel',1,{woodType:element}),)
     
-})
+  })
 
   nether_wood.forEach(element => {
     event.shaped(Item.of('sophisticatedstorage:barrel',1,{woodType:element}),
@@ -38,5 +38,6 @@ ServerEvents.recipes(event => {
         C: "gtceu:iron_screw",
         D: "gtceu:double_iron_plate"
       }
-    )})
+    )
+  })
 })
