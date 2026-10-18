@@ -1,15 +1,14 @@
 ServerEvents.recipes(event => {
-    // Helpers
+    // Helper Values
     const remove = (id) => {
         event.remove({id: id})
     }
-    // Removal
+    // Everything Bread
     remove("farmersdelight:wheat_dough_from_water")
     remove("farmersdelight:bread_from_smelting")
     remove("farmersdelight:bread_from_smoking")
     remove("minecraft:bread")
 
-    // Bread
     event.replaceInput(
         { id: "gtceu:shaped/flour_to_dough"},
         "gtceu:wheat_dust",
@@ -38,26 +37,11 @@ ServerEvents.recipes(event => {
             "#forge:tools/mortars"
         ]
     )
-
+    
     event.recipes.gtceu.macerator("kubejs:food/flour")
         .itemInputs("minecraft:wheat")
         .itemOutputs(Item.of('2x kubejs:wheat_flour'))
         .chancedOutput('kubejs:wheat_flour', 3500,750)
         .duration(100)
         .EUt(2)
-
-    // Stock
-    event.recipes.farmersdelight.cooking(
-        ["minecraft:chicken", "farmersdelight:onion", "farmersdelight:onion",
-        "farmersdelight:onion","minecraft:carrot", "minecraft:carrot"],
-        "kubejs:chicken_stock",
-        30,
-        300,
-        "minecraft:bowl",
-    )
-    event.replaceInput(
-        {id: "farmersdelight:cooking/noodle_soup"},
-        "#forge:raw_pork",
-        "kubejs:chicken_stock"
-    )
 })
