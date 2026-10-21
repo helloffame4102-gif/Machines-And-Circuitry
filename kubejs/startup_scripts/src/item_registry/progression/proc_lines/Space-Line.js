@@ -69,6 +69,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_LENS,
             GTMaterialFlags.GENERATE_SPRING_SMALL,
+            GTMaterialFlags.GENERATE_RING,
+            GTMaterialFlags.GENERATE_ROUND,
             GTMaterialFlags.NO_SMELTING
         )
 
