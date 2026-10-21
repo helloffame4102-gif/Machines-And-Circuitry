@@ -12,6 +12,8 @@ modernfix/
 fancymenu_data/
 ESM/
 mods/.index
+gtceu/
+config/crash_assistant/
 
 icon.png
 options.txt
@@ -74,7 +76,7 @@ config/darkmodeeverywhereshaders*
 config/ichunutil/themes/
 config/gtceu.yaml
 defaultconfigs/ftbultimine/ftbultimine-*.snbt
-config/crash_assistant
+config/crash_assistant 
 # Linux
 *~
 .fuse_hidden*
