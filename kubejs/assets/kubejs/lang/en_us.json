@@ -1,2 +1,12 @@
 {
+    "material.gtceu.purified_vibranium_sludge": "Purified Vibranium Sludge",
+    "material.gtceu.mythril_dense_concentrate": "Mythril-dense Concentrate",
+    "material.gtceu.adamantine": "Adamantine",
+    "material.gtceu.mythril": "Mythril",
+    "material.gtceu.vibranium": "Vibranium",
+    "material.gtceu.space_crystal": "Space Crystal",
+    "material.gtceu.space_crystal_filling": "Space Crystal Filling",
+    "material.gtceu.space_crystal_waste": "Space Crystal Waste",
+    "material.gtceu.binding_fluid": "Binding Fluid",
+    "material.gtceu.adamantine_carbon_salt": "Adamantine-carbon Salt"
 }

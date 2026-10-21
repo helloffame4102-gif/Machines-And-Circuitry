@@ -13,7 +13,8 @@ fancymenu_data/
 ESM/
 mods/.index
 gtceu/
-config/crash_assistant/
+config/*
+!config/ftbquests/
 
 icon.png
 options.txt

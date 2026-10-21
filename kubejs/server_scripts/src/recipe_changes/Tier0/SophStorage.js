@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+/*ServerEvents.recipes(event => {
   // Helpers
   const remove = (id) => {event.remove({id: id})}
   const wood_types = ["cherry", "acacia", "birch", "dark_oak", "jungle", "oak", "spruce", "mangrove"]
@@ -40,4 +40,4 @@ ServerEvents.recipes(event => {
       }
     )
   })
-})
+})*/
