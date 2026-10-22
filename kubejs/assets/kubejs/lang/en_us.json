@@ -8,5 +8,12 @@
     "material.gtceu.space_crystal_filling": "Space Crystal Filling",
     "material.gtceu.space_crystal_waste": "Space Crystal Waste",
     "material.gtceu.binding_fluid": "Binding Fluid",
-    "material.gtceu.adamantine_carbon_salt": "Adamantine-carbon Salt"
+    "material.gtceu.adamantine_carbon_salt": "Adamantine-carbon Salt",
+    "material.gtceu.nitrate": "Nitrate",
+    "material.gtceu.bismuth_nitrate": "Bismuth Nitrate",
+    "material.gtceu.bismuth_4_oxide": "Bismuth IV Oxide",
+    "material.gtceu.bismuth_subcarbonate": "Bismuth Subcarbonate",
+    "material.gtceu.sodium_carbonate": "Sodium Carbonate",
+    "material.gtceu.sodium_nitrate": "Sodium Nitrate"
+
 }
