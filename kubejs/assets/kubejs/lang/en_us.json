@@ -4,6 +4,7 @@
     "material.gtceu.adamantine": "Adamantine",
     "material.gtceu.mythril": "Mythril",
     "material.gtceu.vibranium": "Vibranium",
+    "material.gtceu.desh": "Desh",
     "material.gtceu.space_crystal": "Space Crystal",
     "material.gtceu.space_crystal_filling": "Space Crystal Filling",
     "material.gtceu.space_crystal_waste": "Space Crystal Waste",
@@ -14,6 +15,13 @@
     "material.gtceu.bismuth_4_oxide": "Bismuth IV Oxide",
     "material.gtceu.bismuth_subcarbonate": "Bismuth Subcarbonate",
     "material.gtceu.sodium_carbonate": "Sodium Carbonate",
-    "material.gtceu.sodium_nitrate": "Sodium Nitrate"
+    "material.gtceu.sodium_nitrate": "Sodium Nitrate",
+    "material.gtceu.refined_naquatic_acid": "Refined Naquatic Acid",
+    "material.gtceu.crystal_refined_adamantine_salt_ion": "Crystal-Refined Adamantine Salt Ion",
+    "material.gtceu.rare_crystal_refined_space_mixture": "Rare Crystal-Refined Space Mixture",
+    "material.gtceu.crystal_refined_vibranium_sludge": "Crystal-Refined Vibranium Sludge",
+    "material.gtceu.crystal_refined_acidic_naquadah_mixture": "Crystal-Refined Acidic Naquadah Mixture",
+    "material.gtceu.crystal_refined_mythril_concentrate": "Crystal-Refined Mythril Concentrate"
+    
 
 }

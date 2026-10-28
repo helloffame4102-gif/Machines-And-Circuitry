@@ -16,16 +16,15 @@ features:
   omnibreakerEnergyCapacity: 40960000
 
   # Whether the Wireless Active Transformer is enabled.
-  webEnabled: true
+  pterbEnabled: true
 
   # Base amount of WAT coolant to drain every second.
   # (Setting both this amount and the IO multiplier to 0 disables the coolant mechanic.)
-  webCoolantBaseDrain: 0
+  pterbCoolantBaseDrain: 0
 
   # Multiplier over IO amount for additional coolant drain.
-  # Multiplies over the logarithm of Voltage * Amperage.
   # (Setting both this and the base drain amount to 0 disables the coolant mechanic.)
-  webCoolantIOMultiplier: 0.0
+  pterbCoolantIOMultiplier: 0.0
 
   # Whether the coins/credits are enabled.
   coinsEnabled: false
