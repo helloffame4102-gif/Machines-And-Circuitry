@@ -1,7 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "7F453502DE859514", title: "Main Progression" }
-		{ id: "3A2E9C54832AC3A6", title: "Side Progression" }
-		{ id: "06E5B5D99D40C21A", title: "Help" }
-	]
-}
