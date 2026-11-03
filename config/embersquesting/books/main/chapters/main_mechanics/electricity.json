@@ -1,0 +1,100 @@
+{
+  "title": "Electricity",
+  "description": [
+    {
+      "frame": false,
+      "pitch": 35.0,
+      "ortho": true,
+      "interactive": true,
+      "steps": [
+        {
+          "caption": "This is a wire. It transports electricity.",
+          "ticks": 45,
+          "place": [
+            {
+              "pos": [
+                2,
+                1,
+                3
+              ],
+              "block": "gtceu:copper_double_cable"
+            },
+            {
+              "pos": [
+                2,
+                1,
+                2
+              ],
+              "block": "gtceu:copper_double_cable"
+            },
+            {
+              "pos": [
+                2,
+                1,
+                1
+              ],
+              "block": "gtceu:copper_double_cable"
+            }
+          ],
+          "remove": [
+            [
+              2,
+              1,
+              3
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "caption": "And this is a generator. It makes electricity.",
+          "ticks": 45,
+          "place": [
+            {
+              "pos": [
+                2,
+                1,
+                4
+              ],
+              "block": "gtceu:mv_combustion"
+            }
+          ]
+        }
+      ],
+      "loop": false,
+      "yaw": -125.0,
+      "layers": [
+        []
+      ],
+      "key": {
+        "#": "minecraft:grass_block"
+      },
+      "structure": "eqpack:structures/electricity.nbt",
+      "type": "scene"
+    }
+  ],
+  "x": -6,
+  "tasks": [
+    {
+      "type": "checkmark",
+      "title": "Got it"
+    }
+  ],
+  "size": 2.0,
+  "icons": {
+    "available": "gtceu:hv_combustion",
+    "locked": "gtceu:hv_combustion",
+    "completed": "gtceu:hv_combustion",
+    "started": "gtceu:hv_combustion",
+    "unknown": "gtceu:hv_combustion",
+    "claimable": "gtceu:hv_combustion"
+  }
+}

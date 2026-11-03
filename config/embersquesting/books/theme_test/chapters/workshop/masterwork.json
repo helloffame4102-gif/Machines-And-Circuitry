@@ -1,0 +1,28 @@
+{
+  "title": "Masterwork",
+  "icon": "minecraft:diamond_pickaxe",
+  "x": 6,
+  "y": 0,
+  "deps": {
+    "all": [
+      "workshop/tools"
+    ]
+  },
+  "description": [
+    "Make a diamond pickaxe to finish the workshop."
+  ],
+  "tasks": [
+    {
+      "type": "item",
+      "item": "minecraft:diamond_pickaxe",
+      "count": 1,
+      "mode": "detect"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "xp",
+      "levels": 10
+    }
+  ]
+}

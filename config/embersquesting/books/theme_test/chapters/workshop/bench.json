@@ -1,0 +1,24 @@
+{
+  "title": "Set Up a Bench",
+  "icon": "minecraft:crafting_table",
+  "x": 0,
+  "y": 0,
+  "description": [
+    "Every workshop starts with a bench. Craft a crafting table and keep it on you."
+  ],
+  "tasks": [
+    {
+      "type": "item",
+      "item": "minecraft:crafting_table",
+      "count": 1,
+      "mode": "detect"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "item": "minecraft:oak_planks",
+      "count": 16
+    }
+  ]
+}

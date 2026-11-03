@@ -1,0 +1,12 @@
+{
+  "title": "ULV and first electricity",
+  "x": 10,
+  "y": 7,
+  "tasks": [
+    {
+      "item": "gtceu:ulv_machine_hull",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

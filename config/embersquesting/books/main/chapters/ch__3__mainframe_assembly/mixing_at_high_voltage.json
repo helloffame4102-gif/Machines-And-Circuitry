@@ -1,0 +1,16 @@
+{
+  "title": "Mixing at High Voltage",
+  "x": 11,
+  "y": 10,
+  "deps": {
+    "all": [
+      "ch__3__mainframe_assembly/basic_hv_parts"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "gtceu:hv_mixer",
+      "type": "item"
+    }
+  ]
+}

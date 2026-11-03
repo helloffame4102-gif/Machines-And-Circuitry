@@ -1,0 +1,12 @@
+{
+  "title": "Time to mine",
+  "x": 0,
+  "y": 6,
+  "tasks": [
+    {
+      "tag": "minecraft:logs",
+      "count": 4,
+      "type": "item"
+    }
+  ]
+}

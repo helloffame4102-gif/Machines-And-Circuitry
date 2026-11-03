@@ -1,0 +1,17 @@
+{
+  "title": "He's got a knife!",
+  "x": -4,
+  "y": 4,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/harvesting_the_beach"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "gtceu:flint_knife",
+      "components": "{GT.Tool:{}}",
+      "type": "item"
+    }
+  ]
+}

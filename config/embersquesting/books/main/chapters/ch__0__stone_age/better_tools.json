@@ -1,0 +1,24 @@
+{
+  "title": "Better tools",
+  "x": -3,
+  "y": -2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/stone"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:stone_pickaxe",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:stone_axe",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:stone_shovel",
+      "type": "item"
+    }
+  ]
+}

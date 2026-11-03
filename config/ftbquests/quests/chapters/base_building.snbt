@@ -31,6 +31,16 @@
 	id: "3EE497D59F027A05"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "79C652D3F0481B73"
+		tasks: [{
+			id: "62728A1E4FC8FBD6"
+			item: "minecraft:chest"
+			type: "item"
+		}]
+		title: "The humble Chest"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Tools"
 }

@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tier_31_space_age"
+	filename: "tier_32_building_a_rocket"
 	group: "3A2E9C54832AC3A6"
-	icon: "ad_astra:earth_globe"
-	id: "7DC595DAE3B55B76"
+	icon: "ad_astra:moon_globe"
+	id: "34DECBFCA9B9F318"
 	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
-	title: "Tier 3.2: Space Age"
+	title: "Tier 3.2: Building a Rocket"
 }

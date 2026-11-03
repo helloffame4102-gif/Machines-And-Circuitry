@@ -1,0 +1,17 @@
+{
+  "title": "Quick storage",
+  "x": -2,
+  "y": 4,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/harvesting_the_beach",
+      "ch__0__stone_age/crafting_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:chest",
+      "type": "item"
+    }
+  ]
+}

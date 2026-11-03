@@ -1,0 +1,12 @@
+{
+  "title": "Beyond Ultimate?",
+  "x": 11,
+  "y": 7,
+  "tasks": [
+    {
+      "item": "gtceu:uhv_machine_hull",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Stock the Racks",
+  "icon": "minecraft:iron_pickaxe",
+  "x": 3,
+  "y": 0,
+  "deps": {
+    "all": [
+      "workshop/bench"
+    ]
+  },
+  "routes": {
+    "workshop/bench": {
+      "style": "gold"
+    }
+  },
+  "description": [
+    "Craft an iron pickaxe and an iron axe. The line leading here uses the gold line style from the quest style."
+  ],
+  "tasks": [
+    {
+      "type": "item",
+      "item": "minecraft:iron_pickaxe",
+      "count": 1,
+      "mode": "detect"
+    },
+    {
+      "type": "item",
+      "item": "minecraft:iron_axe",
+      "count": 1,
+      "mode": "detect"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item",
+      "item": "minecraft:iron_ingot",
+      "count": 5
+    }
+  ]
+}

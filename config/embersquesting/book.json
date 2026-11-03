@@ -1,0 +1,21 @@
+{
+  "title": "Machines and Circuitry",
+  "icon": "minecraft:nether_star",
+  "groups": {
+    "side_progression": {
+      "title": "Side Progression",
+      "icon": "gtceuterminal:multi_structure_manager",
+      "order": 1
+    },
+    "help": {
+      "title": "Help",
+      "icon": "gtceu:pure_platinum_dust",
+      "order": 2
+    },
+    "main_progression": {
+      "title": "Main Progression",
+      "icon": "gtceu:soc_wafer",
+      "order": 0
+    }
+  }
+}
