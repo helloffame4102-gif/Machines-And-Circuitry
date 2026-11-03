@@ -1,0 +1,16 @@
+{
+  "title": "Cobble'd up",
+  "x": -1,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:cobblestone",
+      "count": 64,
+      "type": "item"
+    }
+  ]
+}

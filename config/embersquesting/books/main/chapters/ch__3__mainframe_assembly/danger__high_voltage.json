@@ -1,0 +1,12 @@
+{
+  "title": "Danger: High Voltage",
+  "x": 10,
+  "y": 6,
+  "tasks": [
+    {
+      "item": "gtceu:hv_machine_hull",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

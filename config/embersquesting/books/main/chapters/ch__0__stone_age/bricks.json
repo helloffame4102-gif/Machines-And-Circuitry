@@ -1,0 +1,16 @@
+{
+  "title": "Bricks",
+  "x": -6,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/now_we_re_cooking_with_fire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:brick",
+      "count": 15,
+      "type": "item"
+    }
+  ]
+}

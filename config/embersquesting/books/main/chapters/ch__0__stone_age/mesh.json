@@ -1,0 +1,18 @@
+{
+  "title": "Mesh",
+  "description": [
+    "wip"
+  ],
+  "x": -6,
+  "y": 4,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/he_s_got_a_knife"
+    ]
+  },
+  "tasks": [
+    {
+      "type": "checkmark"
+    }
+  ]
+}
