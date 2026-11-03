@@ -1,0 +1,26 @@
+name: Feature Request
+description: File a feature request for MaC.
+title: "[Feature Req.]: "
+labels: ["fReq"]
+body:
+  - type: dropdown
+    id: field
+    attributes:
+      label: What field is the feature request in?
+      description: Select the field that the feature request is in.
+      multiple: false # Set to true if users can choose more than one option
+      options:
+        - Quests
+        - Recipes
+        - Proc. Lines
+        - Mod Changes
+        - Misc
+    validations:
+      required: true # Makes this a mandatory field before submitting
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Request Details
+      description: Describe the feature request in detail.
+    validations:
+      required: true

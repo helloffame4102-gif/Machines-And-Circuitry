@@ -24,6 +24,7 @@ usernamecache.json
 emi.json
 gtceu/
 .toml
+emberstextapi/sdf-cache
 # Node.js
 **/node_modules/
 
@@ -96,3 +97,6 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+config/embeddium-options.json
+config/gtmutils.yaml
+config/solonion.json
