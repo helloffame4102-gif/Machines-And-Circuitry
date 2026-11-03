@@ -19,7 +19,8 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 emi.json
-
+gtceu/
+.toml
 # Node.js
 **/node_modules/
 
