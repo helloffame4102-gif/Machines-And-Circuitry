@@ -1,0 +1,12 @@
+{
+  "title": "This power requirement is Insane!",
+  "x": 10,
+  "y": 6,
+  "tasks": [
+    {
+      "item": "gtceu:iv_machine_hull",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

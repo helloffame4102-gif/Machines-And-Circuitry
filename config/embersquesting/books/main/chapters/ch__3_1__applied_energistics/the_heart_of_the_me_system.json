@@ -1,0 +1,12 @@
+{
+  "title": "The heart of the ME system",
+  "x": 10,
+  "y": 7,
+  "tasks": [
+    {
+      "item": "ae2:controller",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

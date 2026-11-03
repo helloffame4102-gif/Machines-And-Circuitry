@@ -14,7 +14,7 @@ ESM/
 mods/.index
 gtceu/
 config/*
-!config/ftbquests/
+!config/embersquesting/
 
 icon.png
 options.txt

@@ -1,0 +1,63 @@
+{
+  "title": "Tier 0: Genesis",
+  "icon": "minecraft:flint",
+  "group": "main_progression",
+  "defaults": {
+    "progression": "linear"
+  },
+  "decorations": [
+    {
+      "tooltip": [
+        "Your base"
+      ],
+      "width": 2.0,
+      "height": 2.0,
+      "content": {
+        "frame": false,
+        "pitch": 35.0,
+        "ortho": true,
+        "loop": false,
+        "yaw": -125.0,
+        "layers": [
+          [
+            "###",
+            "###",
+            "###"
+          ]
+        ],
+        "key": {
+          "#": "minecraft:grass_block"
+        },
+        "structure": "eqpack:structures/small_base.nbt",
+        "type": "scene"
+      },
+      "x": 1.5,
+      "y": 3.25
+    },
+    {
+      "width": 2.75,
+      "height": 2.25,
+      "content": {
+        "frame": false,
+        "pitch": 35.0,
+        "ortho": true,
+        "loop": false,
+        "yaw": -125.0,
+        "layers": [
+          [
+            "###",
+            "###",
+            "###"
+          ]
+        ],
+        "key": {
+          "#": "minecraft:grass_block"
+        },
+        "structure": "eqpack:structures/tinkering.nbt",
+        "type": "scene"
+      },
+      "x": -10.5,
+      "y": -0.5
+    }
+  ]
+}

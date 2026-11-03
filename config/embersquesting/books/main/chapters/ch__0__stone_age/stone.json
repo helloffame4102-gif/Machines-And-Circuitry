@@ -1,0 +1,17 @@
+{
+  "title": "Stone",
+  "x": -3,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/cobble_d_up",
+      "ch__0__stone_age/now_we_re_cooking_with_fire"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:stone",
+      "count": 24,
+      "type": "item"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Harvesting the beach",
+  "x": -3,
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/tools"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:gravel",
+      "count": 16,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 32,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:sand",
+      "count": 16,
+      "type": "item"
+    }
+  ]
+}

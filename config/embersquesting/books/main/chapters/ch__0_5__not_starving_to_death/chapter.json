@@ -1,0 +1,9 @@
+{
+  "title": "Tier 0.1: Not Starving to death",
+  "icon": "farmersdelight:steak_and_potatoes",
+  "order": 7,
+  "group": "side_progression",
+  "defaults": {
+    "progression": "flexible"
+  }
+}

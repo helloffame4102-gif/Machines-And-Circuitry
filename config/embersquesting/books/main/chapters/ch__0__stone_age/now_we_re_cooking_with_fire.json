@@ -1,0 +1,17 @@
+{
+  "title": "Now we're cooking with fire",
+  "x": -6,
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/harvesting_the_beach"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "clayworks:kiln",
+      "type": "item"
+    }
+  ],
+  "size": 1.5
+}
