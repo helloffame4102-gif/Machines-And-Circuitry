@@ -1,0 +1,17 @@
+{
+  "title": "Let there be writing!",
+  "x": -8,
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/mesh"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:paper",
+      "count": 8,
+      "type": "item"
+    }
+  ]
+}

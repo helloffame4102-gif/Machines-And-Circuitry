@@ -1,0 +1,16 @@
+{
+  "title": "Small Steam Boiler",
+  "description": [
+    "Welcome to the &lSteam Age!&r This is the &osecond&r tier of &lMachines and Circuitry&r.",
+    "It's crucial that you build up &oatleast&r somewhat good infrastructure in this tier, such as better &osteam power&r and multiblock machine before you move on to &8ULV&r."
+  ],
+  "x": 11,
+  "y": 7,
+  "tasks": [
+    {
+      "item": "gtceu:lp_steam_solid_boiler",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}

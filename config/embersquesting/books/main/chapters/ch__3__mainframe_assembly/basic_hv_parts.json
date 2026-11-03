@@ -1,0 +1,37 @@
+{
+  "title": "Basic HV Parts",
+  "x": 10,
+  "y": 8,
+  "deps": {
+    "all": [
+      "ch__3__mainframe_assembly/danger__high_voltage"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "gtceu:hv_electric_motor",
+      "count": 16,
+      "type": "item"
+    },
+    {
+      "item": "gtceu:hv_conveyor_module",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "gtceu:hv_electric_pump",
+      "count": 6,
+      "type": "item"
+    },
+    {
+      "item": "gtceu:hv_electric_piston",
+      "count": 8,
+      "type": "item"
+    },
+    {
+      "item": "gtceu:hv_robot_arm",
+      "count": 4,
+      "type": "item"
+    }
+  ]
+}

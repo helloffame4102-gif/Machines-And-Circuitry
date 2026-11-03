@@ -12,6 +12,9 @@ modernfix/
 fancymenu_data/
 ESM/
 mods/.index
+gtceu/
+config/*
+!config/embersquesting/
 
 icon.png
 options.txt

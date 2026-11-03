@@ -1,0 +1,16 @@
+{
+  "title": "High Voltage Assembly",
+  "x": 9,
+  "y": 10,
+  "deps": {
+    "all": [
+      "ch__3__mainframe_assembly/basic_hv_parts"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "gtceu:hv_assembler",
+      "type": "item"
+    }
+  ]
+}

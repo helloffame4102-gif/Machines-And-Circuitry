@@ -1,0 +1,20 @@
+{
+  "title": "Tinkering Around",
+  "x": -10,
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/let_there_be_writing"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tconstruct:tinker_station",
+      "type": "item"
+    },
+    {
+      "item": "tconstruct:part_builder",
+      "type": "item"
+    }
+  ]
+}

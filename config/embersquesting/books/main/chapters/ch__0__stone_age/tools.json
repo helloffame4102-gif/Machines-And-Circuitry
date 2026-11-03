@@ -1,0 +1,23 @@
+{
+  "title": "Basic Tools",
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/crafting_table"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:wooden_axe",
+      "type": "item"
+    },
+    {
+      "item": "minecraft:wooden_shovel",
+      "type": "item"
+    }
+  ]
+}

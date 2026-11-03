@@ -1,0 +1,23 @@
+{
+  "title": "Better-er Tools",
+  "x": -12,
+  "y": 2,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/tinkering_around"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "tconstruct:pickaxe",
+      "components": "{tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:1,name:\"tconstruct:pierce\"},{level:3,name:\"tconstruct:jagged\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.4750001f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":72.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.5f},tic_volatile_data:{abilities:1,upgrades:3}}",
+      "type": "item"
+    },
+    {
+      "item": "tconstruct:hand_axe",
+      "components": "{tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:1,name:\"tconstruct:stripping\"},{level:3,name:\"tconstruct:jagged\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":7.9750004f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":72.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.5f},tic_volatile_data:{abilities:1,upgrades:3}}",
+      "type": "item"
+    }
+  ],
+  "size": 1.5
+}

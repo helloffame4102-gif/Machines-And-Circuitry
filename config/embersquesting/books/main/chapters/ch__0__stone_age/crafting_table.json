@@ -1,0 +1,16 @@
+{
+  "title": "...and Craft",
+  "y": 4,
+  "deps": {
+    "all": [
+      "ch__0__stone_age/logs"
+    ]
+  },
+  "tasks": [
+    {
+      "item": "minecraft:crafting_table",
+      "type": "item"
+    }
+  ],
+  "size": 1.5
+}

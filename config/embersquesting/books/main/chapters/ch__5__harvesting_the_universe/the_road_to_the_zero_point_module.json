@@ -1,0 +1,12 @@
+{
+  "title": "The road to the Zero Point Module",
+  "x": 11,
+  "y": 5,
+  "tasks": [
+    {
+      "item": "gtceu:zpm_machine_hull",
+      "type": "item"
+    }
+  ],
+  "size": 2.0
+}
