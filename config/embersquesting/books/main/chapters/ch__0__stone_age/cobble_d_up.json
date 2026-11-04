@@ -1,6 +1,7 @@
 {
   "title": "Cobble'd up",
   "x": -1,
+  "y": -1,
   "deps": {
     "all": [
       "ch__0__stone_age/tools"

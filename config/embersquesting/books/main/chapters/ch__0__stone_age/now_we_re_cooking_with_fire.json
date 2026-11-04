@@ -4,14 +4,30 @@
   "y": 2,
   "deps": {
     "all": [
-      "ch__0__stone_age/harvesting_the_beach"
+      "ch__0__stone_age/harvesting_the_beach",
+      "ch__0__stone_age/he_s_got_a_knife"
     ]
   },
   "tasks": [
     {
       "item": "clayworks:kiln",
       "type": "item"
+    },
+    {
+      "item": "farmersdelight:straw",
+      "count": 4,
+      "type": "item"
+    },
+    {
+      "item": "minecraft:mud_bricks",
+      "count": 4,
+      "type": "item"
     }
   ],
-  "size": 1.5
+  "size": 1.5,
+  "icons": {
+    "locked": {
+      "layers": []
+    }
+  }
 }
