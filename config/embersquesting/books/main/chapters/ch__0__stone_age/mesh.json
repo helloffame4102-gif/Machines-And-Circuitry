@@ -12,7 +12,8 @@
   },
   "tasks": [
     {
-      "type": "checkmark"
+      "item": "kubejs:string_mesh",
+      "type": "item"
     }
   ]
 }
