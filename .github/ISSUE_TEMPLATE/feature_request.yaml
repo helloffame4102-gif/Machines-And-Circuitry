@@ -21,7 +21,7 @@ body:
     id: tier
     attributes:
       label: What tier is the feature request in?
-      description: ""
+      description: "Select the tier that the feature is in."
       multiple: false
       options:
         - Stone
