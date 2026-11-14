@@ -1,6 +1,7 @@
 {
   "title": "Bricks",
   "x": -6,
+  "y": -1,
   "deps": {
     "all": [
       "ch__0__stone_age/now_we_re_cooking_with_fire"
