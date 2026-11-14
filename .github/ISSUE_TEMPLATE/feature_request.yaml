@@ -17,6 +17,30 @@ body:
         - Misc
     validations:
       required: true # Makes this a mandatory field before submitting
+  - type: dropdown
+    id: tier
+    attributes:
+      label: What tier is the feature request in?
+      description: ""
+      multiple: false
+      options:
+        - Stone
+        - Steam
+        - ULV
+        - LV
+        - MV
+        - HV
+        - EV
+        - IV
+        - LuV
+        - ZPM
+        - UV
+        - UHV
+        - UEV
+        - UIV
+        - UXV
+        - OpV
+        - MAX
   - type: textarea
     id: explanation
     attributes:
