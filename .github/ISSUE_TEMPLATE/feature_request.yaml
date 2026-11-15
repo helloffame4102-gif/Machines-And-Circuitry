@@ -41,6 +41,7 @@ body:
         - UXV
         - OpV
         - MAX
+        - Multiple
   - type: textarea
     id: explanation
     attributes:
