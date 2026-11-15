@@ -1,8 +1,8 @@
 StartupEvents.registry('item', event => {
-    event.create('space_crystal_base').texture("kubejs:item/progression/space-line/space_crystal_base")
-    event.create('unrefined_space_crystal').texture("kubejs:item/progression/space-line/unrefined_space_crystal")
-    event.create('desh_rich_cluster').texture("kubejs:item/progression/space-line/desh_rich_cluster")
-    event.create('unprocessed_lunarium_dust').texture("kubejs:item/progression/space-line/unprocessed_lunarium_dust")
+    event.create('space_crystal_base').texture("kubejs:item/main_progression/iv/space-line/space_crystal_base")
+    event.create('unrefined_space_crystal').texture("kubejs:item/main_progression/iv/space-line/unrefined_space_crystal")
+    event.create('desh_rich_cluster').texture("kubejs:item/main_progression/iv/space-line/desh_rich_cluster")
+    event.create('unprocessed_lunarium_dust').texture("kubejs:item/main_progression/iv/space-line/unprocessed_lunarium_dust")
 })
 
 GTCEuStartupEvents.registry('gtceu:element', event => {

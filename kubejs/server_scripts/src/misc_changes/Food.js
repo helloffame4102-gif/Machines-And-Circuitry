@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+/*ServerEvents.recipes(event => {
     // Helper Values
     const remove = (id) => {
         event.remove({id: id})
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
     event.replaceInput(
         { id: "gtceu:mixer/flour_to_dough"},
         "gtceu:wheat_dust",
-        "kubejs:wheat_flour" 
+        "kubejs:wheat_flour"
     )
 
     event.shapeless(
@@ -37,11 +37,11 @@ ServerEvents.recipes(event => {
             "#forge:tools/mortars"
         ]
     )
-    
+
     event.recipes.gtceu.macerator("kubejs:food/flour")
         .itemInputs("minecraft:wheat")
         .itemOutputs(Item.of('2x kubejs:wheat_flour'))
         .chancedOutput('kubejs:wheat_flour', 3500,750)
         .duration(100)
         .EUt(2)
-})
+        })*/
